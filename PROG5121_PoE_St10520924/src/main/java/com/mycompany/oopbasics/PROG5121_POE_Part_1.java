@@ -97,7 +97,7 @@ class Login{
         if(isLoggedIn){
             return "Welcome " + firstName + "," + lastName + "it is great to see you again";
         }else{
-            return "Usernmae or password incorrect, please try again.";
+            return "Username or password incorrect, please try again.";
         }
     }
 }              
